@@ -1,0 +1,155 @@
+/* .app {
+
+} */
+
+.header {
+    height: var(--header-height);
+}
+
+.navbar {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    height: var(--header-height);
+    line-height: var(--header-height);
+    display: flex;
+}
+
+.navbar__link {
+    display: block;
+    text-transform: uppercase;
+    padding: 0 20px;
+    color: var(--text-color);
+}
+
+.navbar__link:hover {
+    color: var(--hover-color);
+    background-color: var(--navbar-mob-tap-color);
+}
+
+.navbar__item {
+    font-size: 1.6rem;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-img {
+    display: block;
+    height: 450px;
+}
+.subslider {   
+    position: absolute;
+    bottom: 60%;
+    left: 5%;
+}
+
+.subslider__heading {
+    color: var(--white-color);
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.subslider__text {
+    color: var(--white-color);
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.content {
+    background: var(--content-color);
+    padding: 20px 0 30px;
+}
+
+.content-head {
+    margin: 20px 0;
+}
+
+.content__heading {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    margin-bottom: 8px;
+    color: var(--text-color);
+}
+
+.content__text {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+/* .place {
+
+} */
+.mexico-img {
+    height: 188px;
+    margin-bottom: 24px;
+}
+
+.tokyo-img {
+    height: 188px;
+    margin-bottom: 24px;
+}
+
+.new-york-img {
+    height: 188px;
+}
+
+.paris-img {
+    height: 188px;
+}
+
+.invite-img {
+    height: 400px;
+}
+
+.footer {
+    padding: 20px 0 30px;
+    background-color: var(--footer-color);
+}
+
+.footer__list {
+    display: block;
+}
+.footer__item h6 {
+    color: var(--text-color);
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.footer__item {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin-bottom: 6px;
+}
+.footer__item a {
+    text-decoration: underline;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }

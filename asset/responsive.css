@@ -1,0 +1,117 @@
+/* PC */
+@media (min-width:64em) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+/* Tablet + mobile */
+@media (max-width:63.9375em) {
+    .grid {
+        overflow: hidden;
+    }
+   .hide-on-mobile-taplet {
+        display: none;
+   }
+   .on-mobile-taplet {
+    display: block;
+    }
+    :root {
+        --header-height: 36px
+    }
+    .header {
+        background-color: var(--header-mob-tap-color);
+    }
+    .navbar__link {
+        color: var(--white-color);
+    }
+
+    .subslider__heading {
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 4px;
+    }
+    .subslider__text {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+
+    .m-6 img {
+        margin-bottom: 16px;
+        height: 150px;
+    }
+    .m-6 .invite-img {
+        height: 300px;
+        margin-bottom: unset;
+    }
+    .footer__list {
+        padding: 4px 0;
+    }
+    .slider-img {
+        display: none;
+    }
+    .subslider {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        border-bottom: 1px solid;
+        background: var(--content-color);
+        padding-top: 20px;
+    }
+    .subslider__heading {
+        color: var(--text-color);
+        padding-left: 8%;
+    }
+    .subslider__text {
+        color: var(--text-color);
+        margin: 20px 0;
+        padding-left: 8%;
+    }
+}
+/* Tablet */
+@media (min-width:46.25em) and (max-width: 63.9375em) {
+    
+    .hide-on-taplet {
+        display: none;
+    }
+    .on-taplet {
+        display: block;
+    }
+    .slider-img {
+        height: 350px;
+    }
+    
+}
+/* Mobile */
+@media (max-width:46.1875em) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .on-mobile {
+        display: block;
+    }
+    .navbar__link {
+        padding: 0 10px;
+    }
+    .navbar__item {
+        font-size: 1.4rem;
+    }
+    .slider-img {
+        height: 250px;
+    }
+    html {
+        text-align: center;
+    }
+    .content {
+        padding: 10px 0;
+    }
+    .subslider {
+        text-align: center;
+    }
+    .subslider__heading {
+        padding: 8px 0;
+    }
+    .subslider__text {
+        padding: unset;
+    }
+}

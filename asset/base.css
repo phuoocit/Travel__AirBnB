@@ -1,0 +1,41 @@
+:root {
+    --content-color: #efefef;
+    --footer-color: #f7f7f7;
+    --header-mob-tap-color: #556270;
+    --white-color: rgb(255, 255, 255);
+    --black-color: #000;
+    --text-color: #333;
+    --hover-color: rgb(250, 0, 0);
+
+    --header-height: 46px;
+}
+
+
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* 62,5%=>1rem=10px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+img {
+    display: block;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
